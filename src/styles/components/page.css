@@ -1,0 +1,26 @@
+.page {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-main);
+    font-size: 15px;
+    line-height: 1.4;
+    background-color: var(--color-gray);
+}
+
+.page__main {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 50px 25px;
+}
+
+.page__footer {
+    padding: 10px 25px 25px;
+    text-align: center;
+}

@@ -1,0 +1,55 @@
+.card {
+    padding: 50px;
+    padding-top: 125px;
+    color: var(--color-white);
+    background-color: var(--card-color);
+    background-image: var(--card-icon);
+    background-repeat: no-repeat;
+    background-position: 50px 45px;
+    background-size: 64px 40px;
+}
+
+.card--sedan {
+    --card-color: var(--color-orange);
+    --card-icon: url('../images/icon-sedans.svg');
+}
+
+.card--suv {
+    --card-color: var(--color-cyan);
+    --card-icon: url('../images/icon-suvs.svg');
+}
+
+.card--luxury {
+    --card-color: var(--color-green);
+    --card-icon: url('../images/icon-luxury.svg');
+}
+
+.card__title {
+    margin: 0 0 30px;
+    font-family: var(--font-accent);
+    font-size: 36px;
+    text-transform: uppercase;
+    color: var(--color-gray);
+}
+
+.card__text {
+    margin: 0 0 30px;
+}
+
+.card__button {
+    display: inline-block;
+    padding: 10px 30px;
+    line-height: 1.6;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--card-color);
+    background-color: var(--color-gray);
+    border: 2px solid var(--color-gray);
+    border-radius: 25px;
+}
+
+.card__button:hover,
+.card__button:focus {
+    color: var(--color-gray);
+    background-color: var(--card-color);
+}

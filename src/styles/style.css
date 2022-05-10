@@ -1,0 +1,24 @@
+/* Fonts */
+
+@import 'fonts.css';
+
+/* Components */
+
+@import 'components/box-sizing.css';
+@import 'components/visually-hidden.css';
+@import 'components/link.css';
+@import 'components/page.css';
+@import 'components/options.css';
+@import 'components/card.css';
+
+/* Variables */
+
+:root {
+    --color-orange: hsl(31, 77%, 52%);
+    --color-cyan: hsl(184, 100%, 22%);
+    --color-green: hsl(179, 100%, 13%);
+    --color-white: hsla(0, 0%, 100%, .75);
+    --color-gray: hsl(0, 0%, 95%);
+    --font-main: 'Lexend Deca', sans-serif;
+    --font-accent: 'Big Shoulders Display', sans-serif;
+}

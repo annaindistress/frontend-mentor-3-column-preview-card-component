@@ -1,0 +1,9 @@
+.link {
+    color: var(--color-cyan);
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--color-orange);
+}
