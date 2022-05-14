@@ -5,6 +5,13 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    border-radius: 10px;
+    border-radius: 8px;
     overflow: hidden;
+}
+
+@media (min-width: 1024px) {
+    .options__list {
+        flex-direction: row;
+        max-width: 920px;
+    }
 }
