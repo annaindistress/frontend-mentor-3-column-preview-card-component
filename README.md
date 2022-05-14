@@ -38,6 +38,8 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- Gulp
+- PostCSS
 
 ## Author
 
